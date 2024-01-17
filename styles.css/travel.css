@@ -11,7 +11,7 @@ header {
     padding: 50px auto;
 }
 
-#travel {
+.travel {
     color: var(--primary-color);
 }
 
@@ -311,6 +311,26 @@ nav>ul>li>a {
     margin-bottom: 20px;
 }
 
+/* footer section */
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 110px auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+footer > p {
+    width: 775px;
+    margin: 0 auto 24px;
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
 /* for mobile device */
 @media screen and (max-width:600px) {
     header {
@@ -427,6 +447,7 @@ nav>ul>li>a {
     /* newsletter section */
     #newsletter_container {
         flex-direction: column;
+        margin-top: 24px;
     }
     
     #newsletter_image > img {
@@ -447,4 +468,11 @@ nav>ul>li>a {
         font-size: 20px;
     }
 
+    /* footer section */
+    footer {
+        margin-top: 24px;
+    }
+    footer > p {
+        width: 287px;
+    }
 }
